@@ -16,10 +16,12 @@ typedef NS_ENUM(char, TicTacToeToken) {
 
 @interface Board : NSObject <NSCopying>
 
+@property (nonatomic, strong, readonly) NSArray *availableMoves;
+@property (nonatomic, assign, readwrite) BOOL hasWinner;
 
 - (void)placeToken:(TicTacToeToken)token atRow:(NSInteger)row column:(NSInteger)column;
 - (TicTacToeToken)tokenForRow:(NSInteger)row column:(NSInteger)column;
-
+- (BOOL)winForToken:(TicTacToeToken)token;
 - (void)printBoard;
 
 @end

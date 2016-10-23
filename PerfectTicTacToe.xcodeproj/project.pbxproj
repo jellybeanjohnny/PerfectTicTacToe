@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9A615A11DBAA9A50095A02D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A615A01DBAA9A50095A02D /* Game.m */; };
+		C9A615A41DBAB6580095A02D /* PerfectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A615A31DBAB6580095A02D /* PerfectPlayer.m */; };
+		C9A615A71DBBF2750095A02D /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A615A61DBBF2750095A02D /* Move.m */; };
 		C9AB0CED1DB5D7F000B1032F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB0CEC1DB5D7F000B1032F /* main.m */; };
 		C9AB0CF51DB5D87800B1032F /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB0CF41DB5D87800B1032F /* Board.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C9A6159F1DBAA9A50095A02D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C9A615A01DBAA9A50095A02D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		C9A615A21DBAB6580095A02D /* PerfectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectPlayer.h; sourceTree = "<group>"; };
+		C9A615A31DBAB6580095A02D /* PerfectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectPlayer.m; sourceTree = "<group>"; };
+		C9A615A51DBBF2750095A02D /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		C9A615A61DBBF2750095A02D /* Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Move.m; sourceTree = "<group>"; };
 		C9AB0CE91DB5D7F000B1032F /* PerfectTicTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerfectTicTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AB0CEC1DB5D7F000B1032F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9AB0CF31DB5D87800B1032F /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
@@ -63,6 +72,12 @@
 				C9AB0CEC1DB5D7F000B1032F /* main.m */,
 				C9AB0CF31DB5D87800B1032F /* Board.h */,
 				C9AB0CF41DB5D87800B1032F /* Board.m */,
+				C9A6159F1DBAA9A50095A02D /* Game.h */,
+				C9A615A01DBAA9A50095A02D /* Game.m */,
+				C9A615A21DBAB6580095A02D /* PerfectPlayer.h */,
+				C9A615A31DBAB6580095A02D /* PerfectPlayer.m */,
+				C9A615A51DBBF2750095A02D /* Move.h */,
+				C9A615A61DBBF2750095A02D /* Move.m */,
 			);
 			path = PerfectTicTacToe;
 			sourceTree = "<group>";
@@ -125,6 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A615A71DBBF2750095A02D /* Move.m in Sources */,
+				C9A615A41DBAB6580095A02D /* PerfectPlayer.m in Sources */,
+				C9A615A11DBAA9A50095A02D /* Game.m in Sources */,
 				C9AB0CF51DB5D87800B1032F /* Board.m in Sources */,
 				C9AB0CED1DB5D7F000B1032F /* main.m in Sources */,
 			);

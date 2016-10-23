@@ -7,24 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Board.h"
+#import "Game.h"
 
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
     
-    Board *board1 = [[Board alloc] init];
-    [board1 placeToken:TicTacToeTokenO atRow:0 column:0];
-    NSLog(@"Original");
-    [board1 printBoard];
+    Game *game = [[Game alloc] init];
     
-    
-    Board *board2 = [board1 copy];
-    [board2 placeToken:TicTacToeTokenO atRow:0 column:1];
-    NSLog(@"Copy");
-    [board2 printBoard];
-    NSLog(@"Original");
-    [board1 printBoard];
+    [game play];
     
   }
-    return 0;
+  return 0;
 }
